@@ -1,8 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "private": true,
+  "dependencies": {
+    "astro": "5.13.3"
+  },
   "devDependencies": {
-    "@biomejs/biome": "2.2.2"
+    "@biomejs/biome": "2.2.2",
+    "typescript": "5.9.2"
   },
   "packageManager": "pnpm@10.14.0",
   "volta": {
