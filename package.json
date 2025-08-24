@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "gistock",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "volta": {
+    "node": "22.18.0"
+  }
+}
