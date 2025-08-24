@@ -2,10 +2,16 @@
   "$schema": "https://json.schemastore.org/package.json",
   "private": true,
   "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro build && astro preview",
+    "astro": "astro",
+    "check": "astro check && tsc --noEmit",
     "lint": "biome check .",
     "lint:fix": "biome check --write ."
   },
   "dependencies": {
+    "@astrojs/check": "0.9.4",
     "astro": "5.13.3"
   },
   "devDependencies": {
