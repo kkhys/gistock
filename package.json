@@ -1,6 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "gistock",
   "private": true,
   "devDependencies": {
     "@biomejs/biome": "2.2.2"
