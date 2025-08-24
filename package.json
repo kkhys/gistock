@@ -1,6 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "private": true,
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
+  },
   "dependencies": {
     "astro": "5.13.3"
   },
