@@ -1,0 +1,24 @@
+---
+import { MonitorIcon, MoonIcon } from "@lucide/astro";
+import SunIcon from "@lucide/astro/icons/sun";
+
+const themeButtonClasses =
+  "group size-8 flex items-center justify-center rounded-full cursor-pointer";
+const iconClasses =
+  "size-5 group-hover:stroke-black group-hover:dark:stroke-white transition-colors duration-300 ease-in-out";
+---
+
+<footer class="container flex items-center justify-between gap-4 max-w-6xl text-xs text-muted-foreground px-8 py-6 mt-28 mx-auto">
+    <p>©︎ Gistock</p>
+    <div class="flex flex-wrap gap-1 items-center">
+        <button type="button" id="light-theme-button" aria-label="Light theme" class={themeButtonClasses}>
+            <SunIcon class={iconClasses} />
+        </button>
+        <button type="button" id="dark-theme-button" aria-label="Dark theme" class={themeButtonClasses}>
+            <MoonIcon class={iconClasses} />
+        </button>
+        <button type="button" id="system-theme-button" aria-label="System theme" class={themeButtonClasses}>
+            <MonitorIcon class={iconClasses} />
+        </button>
+    </div>
+</footer>
