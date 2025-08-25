@@ -23,6 +23,12 @@
           }
         }
       }
+    },
+    {
+      "includes": ["src/styles/global.css"],
+      "linter": {
+        "enabled": false
+      }
     }
   ]
 }
